@@ -23,6 +23,9 @@ my_parser.add_argument('a',
 my_parser.add_argument('b',
                        help="second arg",
                        type=int)
+my_parser.add_argument('b',
+                       help="second arg",
+                       type=int)
 
 # ограничиваем выполнение всего в теле иф во время импортов
 if __name__ == "__main__":
